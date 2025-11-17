@@ -15,7 +15,7 @@ public class Checkout {
 
     public double hitungDiskon() {
         if (member) {
-            return total * 0.10; // 10%
+            return total * 0.10;
         }
         return 0;
     }
